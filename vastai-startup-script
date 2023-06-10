@@ -1,0 +1,1 @@
+runuser -l root -c 'cd ~/superposition; git pull; pip install gym[box2d]==0.25.2'; echo 'JUPYTER_DIR="/workspace"' >> /etc/environment; touch ~/.no_auto_tmux
